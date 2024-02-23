@@ -357,14 +357,14 @@ class Index {
                                 <div class="row g-4 mb-5">
                                     <div class="col-sm-6 container-r1">
                                         <div class="d-flex align-items-center">
-                                            <img style="width:40px;" class="flex-shrink-0 me-3" src="website_assets/images/icon/task.png"
+                                            <img style="width:40px;" class="flex-shrink-0 me-3" src="website_assets/images/icon/icon-04-blue.png"
                                                 alt="">
                                             <h5 class="mb-0">'.$bodyPages[64][0].'</h5>
                                         </div>
                                     </div>
                                     <div class="col-sm-6 container-r1">
                                         <div class="d-flex align-items-center">
-                                            <img style="width:40px;" class="flex-shrink-0 me-3" src="website_assets/images/icon/refund.png"
+                                            <img style="width:40px;" class="flex-shrink-0 me-3" src="website_assets/images/icon/icon-03-blue.png"
                                                 alt="">
                                             <h5 class="mb-0">'.$bodyPages[65][0].'</h5>
                                         </div>
@@ -426,7 +426,7 @@ class Index {
 
 
             <!-- nuans section -->
-            <!--section class="ftco-section ftco-intro ftco-degree-bg"
+            <section class="ftco-section ftco-intro ftco-degree-bg"
                 style="background-image: url(website_assets/images/business-people-accounting.jpg);">
                 <div class="overlay">&nbsp</div>
                 <div class="container">
@@ -443,26 +443,6 @@ class Index {
                             Order Now </button></a>
                         </div>
                     </div>
-                </div>
-            </section-->
-
-
-            <section class="row my-5 container mx-auto">
-                <div class="col-lg-4 col-sm-12"><img class="w-100" src="website_assets/images/tax-note.jpg"></div>
-                <div class="col-lg-4 col-sm-12"><img class="w-100" src="website_assets/images/tax-laptop.jpg"></div>
-                <div class="col-lg-4 col-sm-12 d-flex flex-column justify-content-center p-4">
-                
-                    <h1>Need A NUANS Report?</h1>
-                    <h5 style="color:#0076a1;">For a Company in Canada</h5>
-                    <hr>
-                    <div class="mt-3">
-                    <ul class="home-section">
-                    <li>Unlock the potential of your business with our comprehensive NUANS Name Search service.</li>
-        <li>Gain peace of mind and ensure your company name is unique and compliant with Canadian regulations.</li>
-        <li>Get your NUANS Name Search report for only $29 with a guaranteed turnaround time of just 30 minutes.</li>
-        </ul>
-        </div>
-                    <a href="/nuans-service.html" style="width:130px;" class="btn btn-primary rounded-pill mt-3">Order Now</a>
                 </div>
             </section>
             <!-- end nuans section -->
@@ -579,7 +559,7 @@ class Index {
         
         
             <!--subscribe start-->
-            <!--section id="subs" class="subscribe mt-5 mb-5">
+            <section id="subs" class="subscribe mt-5 mb-5">
                 <div class="container">
                     <div class="subscribe-title text-center">
                         <h2 class="mb-2">
@@ -587,72 +567,30 @@ class Index {
                         </h2>
                         <div class="d-flex wc_section">
                             <div class="box">
-                                <h5>
+                                <h4>
                                     Client-Centric Approach
-                                </h5>
+                                </h4>
                             </div>
                             <div class="box">
-                                <h5>
+                                <h4>
                                     Quality of Service
-                                </h5>
+                                </h4>
                             </div>
                             <div class="box">
-                                <h5>
+                                <h4>
                                     Transparency and Communication
-                                </h5>
+                                </h4>
                             </div>
                             <div class="box">
-                                <h5>
+                                <h4>
                                     Accessible Support
-                                </h5>
+                                </h4>
                             </div>
                         </div>
                     </div>
         
                 </div>
-            </section-->
-
-
-            <div class="background py-5">
-            <section class="row my-5 container mx-auto">
-            <div class="col-lg-8 col-sm-12 d-flex flex-column justify-content-center p-4">
-                
-                    <h1>Why People Choose Us?</h1>
-                    
-                    <div class="mt-3">
-                    <div class="d-flex flex-column wc_section p-3">
-                            <div class="p-3" style="text-align:left;">
-                                <h5>
-                                    Client-Centric Approach
-                                </h5>
-                                <p>We prioritize your needs, ensuring personalized solutions and exceptional experiences.</p>
-                            </div>
-                            <div class="p-3" style="text-align:left;">
-                                <h5>
-                                    Quality of Service
-                                </h5>
-                                <p>Our commitment to excellence ensures top-notch services that exceed expectations.</p>
-                            </div>
-                            <div class="p-3" style="text-align:left;">
-                                <h5>
-                                    Transparency and Communication
-                                </h5>
-                                <p>We maintain open and clear communication every step of the way, fostering trust and understanding.</p>
-                            </div>
-                            <div class="p-3" style="text-align:left;">
-                                <h5>
-                                    Accessible Support
-                                </h5>
-                                <p>Our dedicated support team is readily available to address your queries and concerns promptly.</p>
-                            </div>
-                        </div>
-        </div>
-                </div>
-                <div class="col-lg-4 col-sm-12"><img class="w-75" src="website_assets/images/why-choose-us.jpg"></div>
-                
             </section>
-            </div>
-            
             <!--subscribe end-->
 
             <!-- Team Start -->
