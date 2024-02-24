@@ -9712,7 +9712,7 @@ class Index {
 
                                                                                             <input type="button" name="previous" class="previous btn-color" value="Go To Business Register Page" />
                                                                                             <!--input type="submit" name="submit" class="submit btn btn-danger" value="Proceed To Pay" /-->
-                                                                                            <input type="button" onclick="addToCart(1, \'Nuans Report\', 12.80,\'./assets/accounts/serv_1_805.png\');" tabindex="0" class="submit btn-color" value="Proceed To Pay" />
+                                                                                            <input type="button" onclick="addToCart(1, \'Nuans Report\', 12.80,\'./assets/accounts/serv_1_618.png\');" tabindex="0" class="submit btn-color" value="Proceed To Pay" />
 
                                                                                             
 
@@ -10539,7 +10539,7 @@ class Index {
 
                                                                                             <input type="button" name="previous" class="previous btn-color" value="Go To Business Register Page" />
                                                                                             <!--input type="submit" name="submit" class="submit btn btn-danger" value="Proceed To Pay" /-->
-                                                                                            <input type="button" onclick="addToCart(1, \'Nuans Report\', 12.80,\'./assets/accounts/serv_1_805.png\');" tabindex="0" class="submit btn-color" value="Proceed To Pay" />
+                                                                                            <input type="button" onclick="addToCart(1, \'Nuans Report\', 12.80,\'./assets/accounts/serv_1_618.png\');" tabindex="0" class="submit btn-color" value="Proceed To Pay" />
 
                                                                                             
 
@@ -10918,7 +10918,7 @@ class Index {
 
                                                                                             <input type="button" name="previous" class="previous btn-color" value="Go To Business Register Page" />
                                                                                             <!--input type="submit" name="submit" class="submit btn btn-danger" value="Proceed To Pay" /-->
-                                                                                            <input type="button" onclick="addToCart(1, \'Nuans Report\', 12.80,\'./assets/accounts/serv_1_805.png\');" tabindex="0" class="submit btn-color" value="Proceed To Pay" />
+                                                                                            <input type="button" onclick="addToCart(1, \'Nuans Report\', 12.80,\'./assets/accounts/serv_1_618.png\');" tabindex="0" class="submit btn-color" value="Proceed To Pay" />
 
                                                                                             
 
@@ -11322,7 +11322,7 @@ class Index {
 
                                                                                             <input type="button" name="previous" class="previous btn-color" value="Go To Business Register Page" />
                                                                                             <!--input type="submit" name="submit" class="submit btn btn-danger" value="Proceed To Pay" /-->
-                                                                                            <input type="button" onclick="addToCart(1, \'Nuans Report\', 12.80,\'./assets/accounts/serv_1_805.png\');" tabindex="0" class="submit btn-color" value="Proceed To Pay" />
+                                                                                            <input type="button" onclick="addToCart(1, \'Nuans Report\', 12.80,\'./assets/accounts/serv_1_618.png\');" tabindex="0" class="submit btn-color" value="Proceed To Pay" />
 
                                                                                             
 
@@ -11726,7 +11726,7 @@ class Index {
 
                                                                                             <input type="button" name="previous" class="previous btn-color" value="Go To Business Register Page" />
                                                                                             <!--input type="submit" name="submit" class="submit btn btn-danger" value="Proceed To Pay" /-->
-                                                                                            <input type="button" onclick="addToCart(1, \'Nuans Report\', 12.80,\'./assets/accounts/serv_1_805.png\');" tabindex="0" class="submit btn-color" value="Proceed To Pay" />
+                                                                                            <input type="button" onclick="addToCart(1, \'Nuans Report\', 12.80,\'./assets/accounts/serv_1_618.png\');" tabindex="0" class="submit btn-color" value="Proceed To Pay" />
 
                                                                                             
 
