@@ -12815,6 +12815,37 @@ class Index {
         
             <!-- Main Stylesheet -->
             <link rel="stylesheet" href="'.baseURL.'/website_assets/css/style.css">
+
+            <link rel="stylesheet" href="/assets/css/jquery-ui.css"> 
+
+            <style type="text/css">
+            #user_form fieldset:not(:first-of-type) {
+                display: none;
+            }
+
+            .progress-style {
+                /* background: #000; */
+                background-color: #28a745!important;
+                border-radius: 25px;
+                /* display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                flex-direction: column;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                justify-content: center;
+                color: #fff;
+                text-align: center;
+                background-color: #007bff;
+                transition: width .6s ease; */
+                
+                background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+                /* background-size: 1rem 1rem; */
+            }
+            </style>
         
         </head>
         
@@ -13053,7 +13084,7 @@ class Index {
                         </div>
                     </div>
     
-                    <div class="d-none d-xl-flex flex-shirink-0">
+                    <div class="d-none d-xl-flex flex-shirink-0 header">
                         <div id="phone-tada" class="d-flex align-items-center justify-content-center me-4">
                             <a href="" class="position-relative animated tada infinite">
                                 <i class="fa fa-phone-alt text-dark-50 fa-2x"></i>
@@ -13067,9 +13098,28 @@ class Index {
                             <span class="text-secondary"><a href="tel:'.$headerPages[1].'">'.$headerPages[1].'</a></span>
                         </div>
     
-                        <div class="top-link" style="margin-top:5px;">
+                        <div class="top-link cart-menu shopping" style="margin-top:5px;">
                             <a href="" class=" nav-fill btn btn-sm-square "><i class="fa fa-shopping-cart text-primary"
                                     style="font-size: 24px !important;"></i></a>
+
+                                    
+                                    <a style="position:absolute; top:8px;left: 48px;color:#ffffff; font-weight:600;" title="Checkout Your Order" href="/Checkout.html" id="headerCart">
+                                    <span id="headerCartQty" class="ml-1">0</span>
+                                </a>
+                                <div class="shopping-item" id="shoppingItem">
+                                    <div class="dropdown-cart-header">
+                                        <span id="cartQuantity"></span>
+                                    </div>
+                                    <ul class="shopping-list" id="shoppingList"></ul>
+                                    <div class="bottom">
+                                        <div class="total">
+                                            <span>Total: </span>
+                                            <span class="total-amount" id="totalAmount">0</span>
+                                        </div>
+                                        <a id="CheckoutLink" href="/checkout.html" class="btn animate">Checkout</a>
+                                    </div>                                    
+                                </div>
+                            
                         </div>
     
                     </div>
@@ -16106,6 +16156,8 @@ class Index {
         
             <!-- JavaScript Libraries -->
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+            <!--<script src="/website_assets/js/jquery-1.12.0.min.js"></script>-->
+                <script src="/assets/js/jquery-ui.min.js"></script>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
         
             <!-- Template Javascript -->
@@ -16114,6 +16166,10 @@ class Index {
             <script src="'.baseURL.'/website_assets/js/jquery.magnific-popup.min.js"></script>
         
             <script src="'.baseURL.'/website_assets/js/script.js"></script>
+
+            
+
+
 
             <script>
             
