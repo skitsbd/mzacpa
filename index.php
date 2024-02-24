@@ -118,7 +118,7 @@ if(in_array($subdomain, array('', 'www','mzacpal'))){
 		$segment2 = 'Index';
 	}
 	
-	if(in_array($segment2URI, array('appointments', 'Checkout', 'about-us', 'set_sessionBranchesId', 'checkRegistered', 'My_Order', 'getPOSInfo', 'home', 'forbidden', 'our-team', 'immigration', 'fingerprint', 'legal-services', 'accounting-services', 'fingerprint-services', 'nuans-service', 'soleproprietorship-service', 'federal-service', 'ontario-service', 'business-service', 'professional-service', 'company-assessment', 'businessformation-services', 'practice-areas', 'videos-main', 'gallery-main', 'search', 'sendAssessments', 'checkMVCVerified', 'checkShippingAddress', 'confirmCheckOut', 'contact-us', 'why-choose-us', 'news-articles', 'sendContactUs','fetchNews'))){
+	if(in_array($segment2URI, array('appointments', 'Checkout', 'other-services', 'about-us', 'set_sessionBranchesId', 'checkRegistered', 'My_Order', 'getPOSInfo', 'home', 'forbidden', 'our-team', 'immigration', 'fingerprint', 'legal-services', 'accounting-services', 'fingerprint-services', 'nuans-service', 'soleproprietorship-service', 'federal-service', 'ontario-service', 'business-service', 'professional-service', 'company-assessment', 'businessformation-services', 'practice-areas', 'videos-main', 'gallery-main', 'search', 'sendAssessments', 'checkMVCVerified', 'checkShippingAddress', 'confirmCheckOut', 'contact-us', 'why-choose-us', 'news-articles', 'sendContactUs','fetchNews'))){
 		
 		$functionName = str_replace('contact-us', 'contactUs', $segment2URI);
 		$functionName = str_replace('Checkout', 'checkout', $functionName);
@@ -141,6 +141,7 @@ if(in_array($subdomain, array('', 'www','mzacpal'))){
 		$functionName = str_replace('news-articles', 'newsMain', $functionName);
 		$functionName = str_replace('businessformation-services', 'businessFormationServices', $functionName);
 		$functionName = str_replace('practice-areas', 'practiceAreas', $functionName);
+		$functionName = str_replace('other-services', 'otherServices', $functionName);
 		$functionName = str_replace('videos-main', 'videosMain', $functionName);
 		$functionName = str_replace('gallery-main', 'galleryMain', $functionName);
 		
@@ -201,6 +202,9 @@ if(in_array($subdomain, array('', 'www','mzacpal'))){
 		}
 		elseif($functionName=='practiceAreas'){
 			$title = trim(stripslashes('Practice Areas'));
+		}
+		elseif($functionName=='otherServices'){
+			$title = trim(stripslashes('Services'));
 		}
 		elseif($functionName=='legalServices'){
 			$title = trim(stripslashes('Legal Services'));
