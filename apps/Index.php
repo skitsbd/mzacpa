@@ -6006,6 +6006,7 @@ class Index {
 
     public function checkout(){
 
+        
         $customers_id = $_SESSION["customers_id"]??0;
         $branches_id = $_SESSION["branches_id"]??0;
         // var_dump($_SESSION);exit;

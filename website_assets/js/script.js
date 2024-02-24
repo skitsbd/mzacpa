@@ -110,21 +110,21 @@ function saveAssessments(event) {
     return false;
   }
   
-  const searchIcon = document.getElementById("search-icon");
-  const searchPopup = document.getElementById("search-popup");
-  const closeSearch = document.getElementById("close-search");
+//   const searchIcon = document.getElementById("search-icon");
+//   const searchPopup = document.getElementById("search-popup");
+//   const closeSearch = document.getElementById("close-search");
   
-  const closeBtn = document.getElementById("close-btn");
-  let body = document.querySelector("body");
-  const dropBtn = document.getElementById("drop-btn");
-  const dropMenu = document.getElementById("drop-menu");
+//   const closeBtn = document.getElementById("close-btn");
+//   let body = document.querySelector("body");
+//   const dropBtn = document.getElementById("drop-btn");
+//   const dropMenu = document.getElementById("drop-menu");
   
-  searchIcon.addEventListener("click", () => {
-    searchPopup.classList.add("popup-visible");
-  });
-  closeSearch.addEventListener("click", () => {
-    searchPopup.classList.remove("popup-visible");
-  });
+//   searchIcon.addEventListener("click", () => {
+//     searchPopup.classList.add("popup-visible");
+//   });
+//   closeSearch.addEventListener("click", () => {
+//     searchPopup.classList.remove("popup-visible");
+//   });
   
   if (document.getElementById("mathCaptcha")) {
     mathCaptcha();
