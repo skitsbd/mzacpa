@@ -573,7 +573,7 @@ function saveAssessments(event) {
               </td>
               <td style="width:77% !important;">
                                   
-                                      <div class=" pleft0 pright0 col-md-9" style="margin-top:15px;">${productNameStr}</div>
+                                      <div class=" pleft0 pright0 col-md-9" style="margin-top:15px; margin-left:15px !important;">${productNameStr}</div>
               </td>
               <td style="width:20% !important;">
                                       <div class="" style="font-size:20px;">

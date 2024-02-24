@@ -7949,7 +7949,7 @@ button:focus {
 }
 .btn-color {
   color: white;
-  background-color: #032062;
+  background-color: var(--bg-thm);
   padding: 6px 18px;
   border: none;
   border-radius: 4px;
