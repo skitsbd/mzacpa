@@ -18,7 +18,7 @@ define('LIVE_DOMAIN', 'simpleaccounting.ca');
 $approvedDomains = array(LIVE_DOMAIN, 'sksoftsolutions.ca', 'mzacpal.ca');
 
 if(!in_array(OUR_DOMAINNAME, $approvedDomains)){
-	echo 'There has been a error with your request.  If you have questions please email us at info@canadianimmigrationlegal.com';
+	echo 'There has been a error with your request.  If you have questions please email us at info@mzacpa.ca';
 	exit;
 }
 
