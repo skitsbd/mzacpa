@@ -656,7 +656,7 @@ class Index {
             <!--subscribe end-->
 
             <!-- Team Start -->
-            <div class="container-fluid team pt-2">
+            <div class="container-fluid team pt-2 my-5">
                 <div class="container pt-2">
                     <div class="text-center mb-5 wow fadeInUp" data-wow-delay=".3s">
                         <h1 class="display-5 w-50 mx-auto">Meet Our Team</h1>
@@ -758,7 +758,7 @@ class Index {
             <!-- Team End -->
         
             <!-- Testiminial Start -->
-            <div class="container-fluid testimonial background mt-5" style="border: 0px solid red;">
+            <div class="container-fluid testimonial background my-5" style="border: 0px solid red;">
                 <div class="container py-5">
                 <div class="row">
                     <div class="col-md-3 text-center mb-5 wow fadeInUp" data-wow-delay=".3s">
