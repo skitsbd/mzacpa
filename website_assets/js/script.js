@@ -404,7 +404,7 @@ function saveAssessments(event) {
   
         cartHTML +=
           '<a style="cursor: pointer;" class="remove" title="Remove this item">' +
-          '<i class="fa fa-remove" id="Remove" onclick="RemoveCartItem(' +
+          '<i class="fa fa-times" id="Remove" onclick="RemoveCartItem(' +
           services_id +
           ')"></i>' +
           "</a>" +
@@ -587,7 +587,7 @@ function saveAssessments(event) {
                           <td width="50" style="vertical-align:top">
                               <input type="hidden" min="1" name="cartProductId[]" value="${services_id}">
                               <a style="cursor: pointer;" class="remove" title="Remove this item">
-                                  <i class="fa fa-remove" id="Remove" onclick="RemoveCartItem(${services_id})"></i>
+                                  <i class="fa fa-times" id="Remove" onclick="RemoveCartItem(${services_id})"></i>
                               </a>
                           </td>
                       </tr>`;
