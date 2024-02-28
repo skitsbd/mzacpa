@@ -2690,7 +2690,8 @@ textarea.form-control {
 }
 
 .footer .copyright a:hover {
-    color: var(--primary);
+    /* color: var(--primary); */
+    color: #c3f0ff !important;
 }
 
 /*************** All Plugins Start ********************/

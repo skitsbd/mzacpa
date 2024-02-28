@@ -12059,7 +12059,7 @@ class Index {
 
                                                                                             <p class="contact-card-link">
 
-                                                                                                <a href="mailto:immigration75@gmail.com" class="">';
+                                                                                                <a href="mailto:info@mzacpa.ca" class="">';
 
                                                                                                 if(!empty($contactUsPages[9])){
 
@@ -12085,7 +12085,7 @@ class Index {
 
                                                                                             <p class="contact-card-link"> 
 
-                                                                                                <a href="https://www.google.com/maps?ll=43.690391,-79.293086&z=16&t=m&hl=en&gl=CA&mapclient=embed&q=2942+Danforth+Ave+Toronto,+ON+M4C+1M5" class="">';
+                                                                                                <a target="_blank" href="https://www.google.com/maps/place/85+Sandown+Ave,+Toronto,+ON+M1N+3W5/@43.713329,-79.2552004,17z/data=!3m1!4b1!4m6!3m5!1s0x89d4ce4e24ebc7ab:0xbea1cc6d792dbcda!8m2!3d43.7133252!4d-79.2526255!16s%2Fg%2F11cpkzq_sl?entry=ttu" class="">';
 
                                                                                                 if(!empty($contactUsPages[8])){
 
@@ -15980,12 +15980,13 @@ class Index {
                     <div class="row g-5">
                         <div class="col-lg-3 col-md-6">
                             <h4 class="text-light mb-4">Address</h4>                            
-                            <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>'.$headerPages[17].'
-                            </p>
-                            <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>60 Danforth Rd(Unit 7) Toronto, ON M1L 3W4
-                            </p>
-                            <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>'.$headerPages[1].'</p>
-                            <p class="mb-2"><i class="fa fa-envelope me-3"></i>'.$headerPages[2].'</p>
+                            <a target="_blank" href="https://www.google.com/maps/place/85+Sandown+Ave,+Toronto,+ON+M1N+3W5/@43.713329,-79.2552004,17z/data=!3m1!4b1!4m6!3m5!1s0x89d4ce4e24ebc7ab:0xbea1cc6d792dbcda!8m2!3d43.7133252!4d-79.2526255!16s%2Fg%2F11cpkzq_sl?entry=ttu" class="mb-2 btn btn-link-ft"><i class="fa fa-map-marker-alt me-3"></i>'.$headerPages[17].'
+                            </a>
+                            <a target="_blank" href="https://www.google.com/maps/place/60+Danforth+Rd+Unit+7,+Toronto,+ON+M1L+3W4/@43.6959281,-79.2784837,17z/data=!3m1!4b1!4m6!3m5!1s0x89d4cfc5b4341e7d:0xf5f06215b442cd81!8m2!3d43.6959243!4d-79.2759088!16s%2Fg%2F11rpw_t4yb?entry=ttu" class="mb-2 btn btn-link-ft"><i class="fa fa-map-marker-alt me-3"></i>60 Danforth Rd(Unit 7) Toronto, ON M1L 3W4
+                            </a>
+                            <a href="tel:'.$headerPages[1].'" class="mb-2 btn btn-link-ft"><i class="fa fa-phone-alt me-3"></i>'.$headerPages[1].'</a>
+                            <a href="mailto:'.$headerPages[2].'" class="mb-2 btn btn-link-ft" style="
+                            text-transform: lowercase;"><i class="fa fa-envelope me-3""></i>'.$headerPages[2].'</a>
                             <div class="d-flex pt-2">
                                 <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
@@ -16142,9 +16143,9 @@ class Index {
                                 Reserved.
                             </div>
                             <div class="col-md-6 text-center text-md-end">
-                                Designed By <a class="border-bottom" href="https://sksoftsolutions.ca"
+                                Designed By <a class="border-bottom" target="_blank" href="https://sksoftsolutions.ca"
                                     style="border-bottom: 0px solid #fff !important;">SK Soft Solutions
-                                    Llc.</a>
+                                    Inc.</a>
                             </div>
                         </div>
                     </div>
