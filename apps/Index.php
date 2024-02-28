@@ -447,10 +447,10 @@ class Index {
             </section-->
 
 
-            <section class="row my-5 container mx-auto">
+            <section class="row my-5 container mx-auto py-5">
                 <div class="col-lg-4 col-sm-12"><img class="w-100" src="website_assets/images/tax-note.jpg"></div>
                 <div class="col-lg-4 col-sm-12"><img class="w-100" src="website_assets/images/tax-laptop.jpg"></div>
-                <div class="col-lg-4 col-sm-12 d-flex flex-column justify-content-center p-4">
+                <div class="col-lg-4 col-sm-12 d-flex flex-column justify-content-center p-5">
                 
                     <h1>Need A NUANS Report?</h1>
                     <h5 style="color:#0076a1;">For a Company in Canada</h5>
@@ -758,7 +758,7 @@ class Index {
             <!-- Team End -->
         
             <!-- Testiminial Start -->
-            <div class="container-fluid testimonial background my-5" style="border: 0px solid red;">
+            <div class="container-fluid testimonial background my-5 py-5" style="border: 0px solid red;">
                 <div class="container py-5">
                 <div class="row">
                     <div class="col-md-3 text-center mb-5 wow fadeInUp" data-wow-delay=".3s">
@@ -9396,8 +9396,8 @@ class Index {
 
                                     <div class=\"row\">
 
-                                        <div class=\"col-md-12 mb-2 ml-2\" style=\"border:0px solid red !important; align:center;\">
-                                            <div class=\"progress\" style=\"border-radius:12px !important; border:2px solid #505050 !important; background-color:#c0c0c0; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px !important; height:30px !important;\">
+                                        <div class=\"col-md-12 mb-2 ml-2\" style=\"padding:12px;\">
+                                            <div class=\"progress\" style=\"border-radius:15px !important;padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px !important; height:30px !important;\">
                                                 <div class=\"progress-bar progress-bar-striped active progress-style\" role=\"progressbar\" aria-valuemin=\"0\" aria-valuemax=\"100\"></div>
                                             </div>
                                         </div>";
